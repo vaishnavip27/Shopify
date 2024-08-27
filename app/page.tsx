@@ -6,7 +6,7 @@ export default function Home() {
     <div className="scroll-smooth snap-y snap-mandatory h-screen overflow-y-scroll overflow-hidden">
       <div className="snap-start h-screen flex flex-col">
         <NavBar />
-        <div className="flex-grow flex flex-col bg-gray-400">
+        <div className="flex-grow flex flex-col bg-[#f8f8f8]">
           {/* Content for Section 1 */}
           <h2 className="text-black text-xl ml-4 mt-3 font-bold">
             Discover products
@@ -59,10 +59,49 @@ export default function Home() {
       </div>
 
       {/* Another section */}
-      <div className="snap-start h-screen flex bg-#fefefe-500">
+      <div className="snap-start h-screen flex flex-col bg-[#f8f8f8]">
         <h1 className="text-black text-2xl font-bold ml-4 mt-4">
           Top selling products
         </h1>
+
+        {/* cards container */}
+        <div className="flex items-center ml-4 mt-3 gap-2">
+          <div className="flex flex-col">
+            <div className="h-[320px] w-[320px] border-2 border-gray-500  rounded-sm"></div>
+            <div className="text-black text-sm mt-2 font-semibold">
+              Name of the product
+            </div>
+            <div className="text-sm">Item description</div>
+          </div>
+          <div className="flex flex-col">
+            <div className="h-[320px] w-[320px] border-2 border-gray-500  rounded-sm"></div>
+            <div className="text-black text-sm mt-2 font-semibold">
+              Name of the product
+            </div>
+            <div className="text-sm">Item description</div>
+          </div>
+          <div className="flex flex-col">
+            <div className="h-[320px] w-[320px] border-2 border-gray-500  rounded-sm"></div>
+            <div className="text-black text-sm mt-2 font-semibold">
+              Name of the product
+            </div>
+            <div className="text-sm">Item description</div>
+          </div>
+          <div className="flex flex-col">
+            <div className="h-[320px] w-[320px] border-2 border-gray-500  rounded-sm"></div>
+            <div className="text-black text-sm mt-2 font-semibold">
+              Name of the product
+            </div>
+            <div className="text-sm">Item description</div>
+          </div>
+          <div>
+            <div className="h-[320px] w-[320px] border-2 border-gray-500  rounded-sm"></div>
+            <div className="text-black text-sm mt-2 font-semibold">
+              Name of the product
+            </div>
+            <div className="text-sm">Item description</div>
+          </div>
+        </div>
       </div>
       <div className="snap-start h-screen flex items-center justify-center bg-green-500">
         {/* Content for Section 3 */}
