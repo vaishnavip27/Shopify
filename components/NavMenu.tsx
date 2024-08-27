@@ -1,18 +1,21 @@
 import React from "react";
-import { Menubar } from "../ui/menubar";
+import { Menubar } from "./ui/menubar";
 import {
   MenubarMenu,
   MenubarTrigger,
   MenubarContent,
   MenubarItem,
-} from "../ui/menubar";
+} from "./ui/menubar";
+import Link from "next/link";
 
 export default function NavMenu() {
   return (
     <div>
       <Menubar className="rounded-s-lg">
         <MenubarMenu>
-          <MenubarTrigger className="rounded-s-lg">Men</MenubarTrigger>
+          <Link href="/men" passHref legacyBehavior>
+            <MenubarTrigger className="rounded-s-lg">Men</MenubarTrigger>
+          </Link>
           <MenubarContent>
             <MenubarItem>New Tab</MenubarItem>
             <MenubarItem>New Window</MenubarItem>
@@ -22,7 +25,9 @@ export default function NavMenu() {
         </MenubarMenu>
 
         <MenubarMenu>
-          <MenubarTrigger className="rounded-s-lg">Women</MenubarTrigger>
+          <Link href="/women" passHref legacyBehavior>
+            <MenubarTrigger className="rounded-s-lg">Women</MenubarTrigger>
+          </Link>
           <MenubarContent>
             <MenubarItem>New Tab</MenubarItem>
             <MenubarItem>New Window</MenubarItem>
@@ -32,7 +37,9 @@ export default function NavMenu() {
         </MenubarMenu>
 
         <MenubarMenu>
-          <MenubarTrigger className="rounded-s-lg">Kids</MenubarTrigger>
+          <Link href="/kids" passHref legacyBehavior>
+            <MenubarTrigger className="rounded-s-lg">Kids</MenubarTrigger>
+          </Link>
           <MenubarContent>
             <MenubarItem>New Tab</MenubarItem>
             <MenubarItem>New Window</MenubarItem>
@@ -42,9 +49,11 @@ export default function NavMenu() {
         </MenubarMenu>
 
         <MenubarMenu>
-          <MenubarTrigger className="rounded-s-lg">
-            Home & living{" "}
-          </MenubarTrigger>
+          <Link href="/living" passHref legacyBehavior>
+            <MenubarTrigger className="rounded-s-lg">
+              Home and Living
+            </MenubarTrigger>
+          </Link>
           <MenubarContent>
             <MenubarItem>New Tab</MenubarItem>
             <MenubarItem>New Window</MenubarItem>
@@ -54,7 +63,9 @@ export default function NavMenu() {
         </MenubarMenu>
 
         <MenubarMenu>
-          <MenubarTrigger className="rounded-s-lg">Beauty</MenubarTrigger>
+          <Link href="/beauty" passHref legacyBehavior>
+            <MenubarTrigger className="rounded-s-lg">Beauty</MenubarTrigger>
+          </Link>
           <MenubarContent>
             <MenubarItem>New Tab</MenubarItem>
             <MenubarItem>New Window</MenubarItem>
