@@ -1,9 +1,10 @@
 import NavBar from "../components/NavBar";
 import Image from "next/image";
+import { PiHeartStraightBold } from "react-icons/pi";
 
 export default function Home() {
   return (
-    <div className="scroll-smooth overflow-y-scroll overflow-hidden">
+    <div className="scroll-smooth overflow-hidden">
       <div className="flex flex-col">
         <NavBar />
         <div className="flex-grow flex flex-col bg-[#f8f8f8]">
@@ -67,62 +68,107 @@ export default function Home() {
         {/* Cards container */}
         <div className="flex items-center ml-4 mt-3 gap-4">
           <div className="flex flex-col">
-            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm"></div>
+            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm">
+              <div className="h-[40px] w-[40px] text-black bg-slate-300 hover:text-red-500 cursor-pointer text-center rounded-full pl-1.5 pt-1.5 ml-52 mt-1">
+                <PiHeartStraightBold
+                  style={{
+                    height: "24px",
+                    width: "24px",
+                  }}
+                />
+              </div>
+            </div>
             <div className="flex justify-between items-center mt-2">
               <div>
                 <div className="text-black text-sm font-semibold">
                   Name of the product
                 </div>
-                <div className="text-sm">Item description</div>
+                <div className="text-xs">Item description</div>
               </div>
-              <div className="text-black text-sm font-semibold">$99.99</div>
+              <div className="text-black text-md font-semibold">$99.99</div>
             </div>
           </div>
 
           <div className="flex flex-col">
-            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm"></div>
+            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm">
+              <div className="h-[40px] w-[40px] text-black bg-slate-300 hover:text-red-500 cursor-pointer text-center rounded-full pl-1.5 pt-1.5 ml-52 mt-1">
+                <PiHeartStraightBold
+                  style={{
+                    height: "24px",
+                    width: "24px",
+                  }}
+                />
+              </div>
+            </div>
             <div className="flex justify-between items-center mt-2">
               <div>
                 <div className="text-black text-sm font-semibold">
                   Name of the product
                 </div>
-                <div className="text-sm">Item description</div>
+                <div className="text-xs">Item description</div>
               </div>
               <div className="text-black text-sm font-semibold">$99.99</div>
             </div>
           </div>
           <div className="flex flex-col">
-            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm"></div>
+            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm">
+              <div className="h-[40px] w-[40px] text-black bg-slate-300 hover:text-red-500 cursor-pointer text-center rounded-full pl-1.5 pt-1.5 ml-52 mt-1">
+                <PiHeartStraightBold
+                  style={{
+                    height: "24px",
+                    width: "24px",
+                  }}
+                />
+              </div>
+            </div>
             <div className="flex justify-between items-center mt-2">
               <div>
                 <div className="text-black text-sm font-semibold">
                   Name of the product
                 </div>
-                <div className="text-sm">Item description</div>
+                <div className="text-xs">Item description</div>
               </div>
               <div className="text-black text-sm font-semibold">$99.99</div>
             </div>
           </div>
           <div className="flex flex-col">
-            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm"></div>
+            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm">
+              <div className="h-[40px] w-[40px] text-black bg-slate-300 hover:text-red-500 cursor-pointer text-center rounded-full pl-1.5 pt-1.5 ml-52 mt-1">
+                <PiHeartStraightBold
+                  style={{
+                    height: "24px",
+                    width: "24px",
+                  }}
+                />
+              </div>
+            </div>
             <div className="flex justify-between items-center mt-2">
               <div>
                 <div className="text-black text-sm font-semibold">
                   Name of the product
                 </div>
-                <div className="text-sm">Item description</div>
+                <div className="text-xs">Item description</div>
               </div>
               <div className="text-black text-sm font-semibold">$99.99</div>
             </div>
           </div>
           <div className="flex flex-col">
-            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm"></div>
+            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm">
+              <div className="h-[40px] w-[40px] text-black bg-slate-300 hover:text-red-500 cursor-pointer text-center rounded-full pl-1.5 pt-1.5 ml-52 mt-1">
+                <PiHeartStraightBold
+                  style={{
+                    height: "24px",
+                    width: "24px",
+                  }}
+                />
+              </div>
+            </div>
             <div className="flex justify-between items-center mt-2">
               <div>
                 <div className="text-black text-sm font-semibold">
                   Name of the product
                 </div>
-                <div className="text-sm">Item description</div>
+                <div className="text-xs">Item description</div>
               </div>
               <div className="text-black text-sm font-semibold">$99.99</div>
             </div>
