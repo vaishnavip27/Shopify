@@ -17,11 +17,25 @@ export default function ProfileMenu() {
       >
         <HiOutlineUser />
         {showMenu && (
-          <div className="absolute mt-2 w-[260px] bg-white border -ml-32 border-gray-300 rounded-sm shadow-lg p-4 ">
-            {/* Content of the div */}
-            <p className="text-sm text-gray-700">User Profile</p>
-            <p className="text-sm text-gray-700">Settings</p>
-            <p className="text-sm text-gray-700">Logout</p>
+          <div className="absolute -m-48 mt-2 w-72 bg-white border border-gray-300 rounded-lg shadow-lg z-10 flex flex-col">
+            <div className="flex flex-col gap-1 justify-start px-4 py-4">
+              <h2 className="text-sm font-bold ">Welcome</h2>
+              <p className="text-xs text-gray-700">
+                To access account and manage orders
+              </p>
+              <button className="text-sm font-extrabold border-2 border-gray-300 text-left mt-2 w-[150px] p-2 rounded-sm">
+                LOGIN/SIGNUP
+              </button>
+            </div>
+            <div className="block w-full text-left px-4 py-2 text-xs text-gray-700 hover:bg-gray-100 hover:font-bold">
+              User Profile
+            </div>
+            <div className="block w-full text-left px-4 py-2 text-xs text-gray-700 hover:bg-gray-100 hover:font-bold">
+              Settings
+            </div>
+            <div className="block w-full text-left px-4 py-2 text-xs text-gray-700 hover:bg-gray-100 hover:font-bold">
+              Logout
+            </div>
           </div>
         )}
       </div>
