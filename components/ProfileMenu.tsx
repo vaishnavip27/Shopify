@@ -4,9 +4,15 @@ import React, { useState } from "react";
 import { HiOutlineUser } from "react-icons/hi";
 import { FaRegHeart } from "react-icons/fa";
 import { LuShoppingCart } from "react-icons/lu";
+import { useRouter } from "next/navigation";
 
 export default function ProfileMenu() {
   const [showMenu, setShowMenu] = useState(false);
+  const router = useRouter();
+
+  const handleLoginClick = () => {
+    router.push("/loginPage");
+  };
 
   return (
     <div className="relative flex items-center gap-x-4 mr-4">
@@ -23,7 +29,10 @@ export default function ProfileMenu() {
               <p className="text-xs text-gray-700">
                 To access account and manage orders
               </p>
-              <button className="text-sm font-extrabold border-2 border-gray-300 text-left mt-2 w-[150px] p-2 rounded-sm">
+              <button
+                className="text-sm font-extrabold border-2 border-gray-300 text-left mt-2 w-[150px] p-2 rounded-sm"
+                onClick={handleLoginClick}
+              >
                 LOGIN/SIGNUP
               </button>
             </div>
