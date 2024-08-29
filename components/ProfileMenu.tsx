@@ -14,6 +14,10 @@ export default function ProfileMenu() {
     router.push("/loginPage");
   };
 
+  const handleWishlistClick = () => {
+    router.push("/wishlist");
+  };
+
   return (
     <div className="relative flex items-center gap-x-4 mr-4">
       <div
@@ -48,7 +52,10 @@ export default function ProfileMenu() {
           </div>
         )}
       </div>
-      <div className="bg-slate-200 p-2 rounded-full">
+      <div
+        className="bg-slate-200 p-2 rounded-full"
+        onClick={handleWishlistClick}
+      >
         <FaRegHeart />
       </div>
       <div className="bg-slate-200 p-2 rounded-full">
