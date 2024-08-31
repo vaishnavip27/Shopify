@@ -23,7 +23,6 @@ export default function NavMenu() {
             <MenubarItem>Save</MenubarItem>
           </MenubarContent>
         </MenubarMenu>
-
         <MenubarMenu>
           <Link href="/women" passHref legacyBehavior>
             <MenubarTrigger className="rounded-s-lg">Women</MenubarTrigger>
@@ -35,7 +34,6 @@ export default function NavMenu() {
             <MenubarItem>Save</MenubarItem>
           </MenubarContent>
         </MenubarMenu>
-
         <MenubarMenu>
           <Link href="/kids" passHref legacyBehavior>
             <MenubarTrigger className="rounded-s-lg">Kids</MenubarTrigger>
@@ -47,7 +45,6 @@ export default function NavMenu() {
             <MenubarItem>Save</MenubarItem>
           </MenubarContent>
         </MenubarMenu>
-
         <MenubarMenu>
           <Link href="/living" passHref legacyBehavior>
             <MenubarTrigger className="rounded-s-lg">
@@ -61,7 +58,6 @@ export default function NavMenu() {
             <MenubarItem>Save</MenubarItem>
           </MenubarContent>
         </MenubarMenu>
-
         <MenubarMenu>
           <Link href="/beauty" passHref legacyBehavior>
             <MenubarTrigger className="rounded-s-lg">Beauty</MenubarTrigger>
@@ -73,6 +69,7 @@ export default function NavMenu() {
             <MenubarItem>Save</MenubarItem>
           </MenubarContent>
         </MenubarMenu>
+        {/* dropdown menu */}
       </Menubar>
     </div>
   );
