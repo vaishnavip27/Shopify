@@ -270,17 +270,19 @@ export default function Home() {
         <div className="flex">
           <div className="flex items-center ml-4 mt-3 gap-4">
             <div className="flex flex-col">
-              <div className="h-[410px] w-[397px] border-2 border-gray-500">
+              <div className="h-[480px] w-[397px] border-2 border-gray-500">
                 <h1 className="text-xl pl-4 pt-3 font-semibold">Heading</h1>
+                <div className="h-[364px] w-[364px] bg-slate-300 ml-3 mt-3"></div>
+                <div className="text-sm ml-3 mt-3">Short description</div>
               </div>
             </div>
           </div>
 
           <div className="flex items-center ml-4 mt-3 gap-4">
             <div className="flex flex-col">
-              <div className="h-[410px] w-[397px] border-2 border-gray-500">
+              <div className="h-[480px] w-[397px] border-2 border-gray-500">
                 <h1 className="text-xl pl-4 pt-3 font-semibold">Heading</h1>
-                <div className="grid grid-cols-2 gap-3 p-4">
+                <div className="grid grid-cols-2 gap-3 p-3">
                   <div className="bg-gray-200 p-4 text-center flex items-center aspect-square">
                     Box 1
                   </div>
@@ -294,23 +296,26 @@ export default function Home() {
                     Box 4
                   </div>
                 </div>
+                <div className="text-sm ml-3">Short description</div>
               </div>
             </div>
           </div>
 
           <div className="flex items-center ml-4 mt-3 gap-4">
             <div className="flex flex-col">
-              <div className="h-[410px] w-[397px] border-2 border-gray-500">
+              <div className="h-[480px] w-[397px] border-2 border-gray-500">
                 <h1 className="text-xl pl-4 pt-3 font-semibold">Heading</h1>
+                <div className="h-[364px] w-[364px] bg-slate-300 ml-3 mt-3"></div>
+                <div className="text-sm ml-3 mt-3">Short description</div>
               </div>
             </div>
           </div>
 
           <div className="flex items-center ml-4 mt-3 gap-4">
             <div className="flex flex-col">
-              <div className="h-[410px] w-[397px] border-2 border-gray-500">
+              <div className="h-[480px] w-[397px] border-2 border-gray-500">
                 <h1 className="text-xl pl-4 pt-3 font-semibold">Heading</h1>
-                <div className="grid grid-cols-2 gap-3 p-4">
+                <div className="grid grid-cols-2 gap-3 p-3">
                   <div className="bg-gray-200 p-4 text-center flex items-center aspect-square">
                     Box 1
                   </div>
@@ -324,6 +329,7 @@ export default function Home() {
                     Box 4
                   </div>
                 </div>
+                <div className="text-sm ml-3">Short description</div>
               </div>
             </div>
           </div>
