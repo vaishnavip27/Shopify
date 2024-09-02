@@ -41,13 +41,16 @@ export default function ProfileMenu() {
               </button>
             </div>
             <div className="block w-full text-left px-4 py-2 text-xs text-gray-700 hover:bg-gray-100 hover:font-bold">
-              User Profile
+              Account
             </div>
             <div className="block w-full text-left px-4 py-2 text-xs text-gray-700 hover:bg-gray-100 hover:font-bold">
-              Settings
+              Orders
             </div>
             <div className="block w-full text-left px-4 py-2 text-xs text-gray-700 hover:bg-gray-100 hover:font-bold">
-              Logout
+              Wishlist
+            </div>
+            <div className="block w-full text-left px-4 py-2 text-xs text-gray-700 hover:bg-gray-100 hover:font-bold">
+              Sign out
             </div>
           </div>
         )}
