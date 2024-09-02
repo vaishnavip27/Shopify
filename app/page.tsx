@@ -280,6 +280,20 @@ export default function Home() {
             <div className="flex flex-col">
               <div className="h-[410px] w-[397px] border-2 border-gray-500">
                 <h1 className="text-xl pl-4 pt-3 font-semibold">Heading</h1>
+                <div className="grid grid-cols-2 gap-3 p-4">
+                  <div className="bg-gray-200 p-4 text-center flex items-center aspect-square">
+                    Box 1
+                  </div>
+                  <div className="bg-gray-200 p-4 text-center flex items-center aspect-square">
+                    Box 2
+                  </div>
+                  <div className="bg-gray-200 p-4 text-center flex items-center aspect-square">
+                    Box 3
+                  </div>
+                  <div className="bg-gray-200 p-4 text-center flex items-center aspect-square">
+                    Box 4
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -296,6 +310,20 @@ export default function Home() {
             <div className="flex flex-col">
               <div className="h-[410px] w-[397px] border-2 border-gray-500">
                 <h1 className="text-xl pl-4 pt-3 font-semibold">Heading</h1>
+                <div className="grid grid-cols-2 gap-3 p-4">
+                  <div className="bg-gray-200 p-4 text-center flex items-center aspect-square">
+                    Box 1
+                  </div>
+                  <div className="bg-gray-200 p-4 text-center flex items-center aspect-square">
+                    Box 2
+                  </div>
+                  <div className="bg-gray-200 p-4 text-center flex items-center aspect-square">
+                    Box 3
+                  </div>
+                  <div className="bg-gray-200 p-4 text-center flex items-center aspect-square">
+                    Box 4
+                  </div>
+                </div>
               </div>
             </div>
           </div>
