@@ -68,7 +68,7 @@ export default function Home() {
         {/* Cards container */}
         <div className="flex items-center ml-4 mt-3 gap-4">
           <div className="flex flex-col">
-            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm">
+            <div className="h-[314px] w-[314px] border-2 border-gray-500 rounded-sm">
               <div className="h-[40px] w-[40px] text-black bg-slate-300 hover:text-red-500 cursor-pointer text-center rounded-full pl-1.5 pt-1.5 ml-52 mt-1">
                 <PiHeartStraightBold
                   style={{
@@ -90,7 +90,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col">
-            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm">
+            <div className="h-[314px] w-[314px] border-2 border-gray-500 rounded-sm">
               <div className="h-[40px] w-[40px] text-black bg-slate-300 hover:text-red-500 cursor-pointer text-center rounded-full pl-1.5 pt-1.5 ml-52 mt-1">
                 <PiHeartStraightBold
                   style={{
@@ -111,7 +111,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col">
-            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm">
+            <div className="h-[314px] w-[314px] border-2 border-gray-500 rounded-sm">
               <div className="h-[40px] w-[40px] text-black bg-slate-300 hover:text-red-500 cursor-pointer text-center rounded-full pl-1.5 pt-1.5 ml-52 mt-1">
                 <PiHeartStraightBold
                   style={{
@@ -132,7 +132,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col">
-            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm">
+            <div className="h-[314px] w-[314px] border-2 border-gray-500 rounded-sm">
               <div className="h-[40px] w-[40px] text-black bg-slate-300 hover:text-red-500 cursor-pointer text-center rounded-full pl-1.5 pt-1.5 ml-52 mt-1">
                 <PiHeartStraightBold
                   style={{
@@ -153,7 +153,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col">
-            <div className="h-[310px] w-[310px] border-2 border-gray-500 rounded-sm">
+            <div className="h-[314px] w-[314px] border-2 border-gray-500 rounded-sm">
               <div className="h-[40px] w-[40px] text-black bg-slate-300 hover:text-red-500 cursor-pointer text-center rounded-full pl-1.5 pt-1.5 ml-52 mt-1">
                 <PiHeartStraightBold
                   style={{
@@ -176,11 +176,131 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex items-center justify-center bg-green-500 mt-8 py-20">
-        {/* Content for Section 3 */}
-        <h1 className="text-white text-4xl">Women's Collection</h1>
-      </div>
       {/* Add more sections as needed */}
+      <div className="flex flex-col bg-[#f8f8f8] mt-8">
+        <h1 className="text-black text-2xl font-bold ml-4 mt-4">
+          Smart Gadgets
+        </h1>
+
+        <div className="flex ">
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[260px] w-[258px] border-2 border-gray-500 rounded-sm"></div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[260px] w-[258px] border-2 border-gray-500 rounded-sm"></div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[260px] w-[258px] border-2 border-gray-500 rounded-sm"></div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[260px] w-[258px] border-2 border-gray-500 rounded-sm"></div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[260px] w-[258px] border-2 border-gray-500 rounded-sm"></div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[260px] w-[258px] border-2 border-gray-500 rounded-sm"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 3 section */}
+      <div className="flex flex-col bg-[#f8f8f8] mt-8">
+        <h1 className="text-black text-2xl font-bold ml-4 mt-4">
+          Smart Gadgets
+        </h1>
+
+        <div className="flex ">
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[260px] w-[258px] border-2 border-gray-500 rounded-sm"></div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[260px] w-[258px] border-2 border-gray-500 rounded-sm"></div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[260px] w-[258px] border-2 border-gray-500 rounded-sm"></div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[260px] w-[258px] border-2 border-gray-500 rounded-sm"></div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[260px] w-[258px] border-2 border-gray-500 rounded-sm"></div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[260px] w-[258px] border-2 border-gray-500 rounded-sm"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col bg-[#f8f8f8] mt-8">
+        <div className="flex">
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[410px] w-[397px] border-2 border-gray-500">
+                <h1 className="text-xl pl-4 pt-3 font-semibold">Heading</h1>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[410px] w-[397px] border-2 border-gray-500">
+                <h1 className="text-xl pl-4 pt-3 font-semibold">Heading</h1>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[410px] w-[397px] border-2 border-gray-500">
+                <h1 className="text-xl pl-4 pt-3 font-semibold">Heading</h1>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex items-center ml-4 mt-3 gap-4">
+            <div className="flex flex-col">
+              <div className="h-[410px] w-[397px] border-2 border-gray-500">
+                <h1 className="text-xl pl-4 pt-3 font-semibold">Heading</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
