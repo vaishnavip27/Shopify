@@ -4,6 +4,7 @@ import { RiShoppingBagFill } from "react-icons/ri";
 import { IoIosArrowForward } from "react-icons/io";
 import { RiUser3Fill } from "react-icons/ri";
 import NavBar from "../components/NavBar";
+import { IoMdWallet } from "react-icons/io";
 
 export default function WishList() {
   return (
@@ -44,8 +45,8 @@ export default function WishList() {
 
             <div>
               <div className="flex items-center p-3 gap-5 border-b border-black">
-                <RiUser3Fill className="h-5 w-5" />
-                <span>PAYEMENTS</span>
+                <IoMdWallet className="h-5 w-5" />
+                <span>PAYMENTS</span>
               </div>
               <div className="flex flex-col p-1 gap-4">
                 <span className="pl-12 text-sm">Gift Cards</span>
@@ -57,7 +58,7 @@ export default function WishList() {
             <div>
               <div className="flex items-center p-3 gap-5 border border-black">
                 <RiUser3Fill className="h-5 w-5" />
-                <span>MY CARDS</span>
+                <span>MY STUFFS</span>
               </div>
               <div className="flex flex-col p-1 gap-4">
                 <span className="pl-12 text-sm">My Coupons</span>
